@@ -38,5 +38,36 @@
             </div>
         </div>
     </section>
+
+    <!-- Task 2: Create a Contact Form -->
+    <section class="col-4 m-4">
+        <h2>Contact Us</h2>
+        <form>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <select class="form-select mb-3" aria-label="Services you are interested in:">
+                    <option selected>Select the service you are interested in</option>
+                    <option value="1">Laptop Repair</option>
+                    <option value="2">Mobile Repair</option>
+                    <option value="3">Virus Removal</option>
+                    <option value="4">Other</option>
+                  </select>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Describe your issue</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                  </div>
+                
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+              </form>
+        </form>
+    </section>
 </body>
 </html>
